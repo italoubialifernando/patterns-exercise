@@ -1,6 +1,6 @@
 import { whyInstance } from "./index.mjs";
 
 
-whyInstance.Askme()
+whyInstance.output()
 
 console.log(`${whyInstance.answer}`.replace(/,/g, ' '))

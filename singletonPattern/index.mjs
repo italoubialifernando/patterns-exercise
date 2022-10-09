@@ -7,7 +7,7 @@ class why {
         this.answer = []
     }
 
-    Askme() {
+    output() {
         this.possibleAnswer.forEach((element, index) => {
             if (index == 0) {
                 this.answer.push(element[Math.floor(Math.random() * 2)])
